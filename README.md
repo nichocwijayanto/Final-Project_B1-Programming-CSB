@@ -20,17 +20,20 @@ python -m venv venv
 # Activate the environment
 source venv/bin/activate  # Mac/Linux
 .\venv\Scripts\activate   # Windows
-
+```
 ### 2. Install Dependencies
+```bash
 pip install fastapi uvicorn pydantic
-
+```
 ### 3. Initialize Data Storage
+```bash
 touch tasks.txt      # Mac/Linux
 type nul > tasks.txt # Windows
-
+```
 ### 4. Start the Server
+```bash
 uvicorn main:app --reload
-
+```
 ### 5. Access Documentation
 http://127.0.0.1:8000/docs : Interactive API Docs (Swagger)
 http://127.0.0.1:8000/ : Health Check
