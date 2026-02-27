@@ -35,6 +35,7 @@ type nul > tasks.txt # Windows
 uvicorn main:app --reload
 ```
 ### 5. Access Documentation
+```bash
 http://127.0.0.1:8000/docs : Interactive API Docs (Swagger)
 http://127.0.0.1:8000/ : Health Check
 
@@ -44,4 +45,5 @@ GET /tasks : Retrieve all tasks (optional completed filter).
 GET /tasks/stats : View task summary statistics.
 POST /tasks : Create a new task.
 PUT /tasks/{id} : Update an existing task. 
-DELETE /tasks/{id} : Delete a specific task. 
+DELETE /tasks/{id} : Delete a specific task.
+```
