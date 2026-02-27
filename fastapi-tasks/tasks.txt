@@ -1,0 +1,3 @@
+{"id": 1, "title": "Submit Programming Final Project", "description": "DUE TODAY!", "completed": false}
+{"id": 2, "title": "buy snacks and drinks", "description": "preferably chips for MOVIE NIGHT!", "completed": false}
+{"id": 3, "title": "wash dishes", "description": "", "completed": true}
